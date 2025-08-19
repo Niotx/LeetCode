@@ -6,7 +6,6 @@ impl Solution {
             for j in 0..grid.len(){
                 v.push(grid[j][i])
             }
-            print!("{:?}",v);
             for k in 0..grid.len(){
                 if v == grid[k]{
                     c += 1
